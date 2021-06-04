@@ -35,4 +35,4 @@ Copyright (C) 2021  Taco!#1305
 
 # Video Example
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wXWqPyOijIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![VIDEO](https://img.youtube.com/vi/wXWqPyOijIE/0.jpg)](https://www.youtube.com/watch?v=wXWqPyOijIE)
