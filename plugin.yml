@@ -1,0 +1,7 @@
+name: MoveBlocks
+description: "Block Movement Cosmetic As Seen On Hypixel."
+author: Taco
+website: "https://github.com/TacoNoBurrito"
+api: "3.0.0"
+main: Taco\MB\Loader
+version: 1.0.0

@@ -1,0 +1,20 @@
+# General
+
+    # The update time in ticks (20 = 1s) RECOMMENDED = 4
+update-time: 4
+
+    # The worlds that the blocks shouldn't change in
+banned-worlds:
+  - "world1"
+  - "world2"
+
+# General
+
+# Blocks
+
+    # The blocks that appear in the menu (WITH PERMISSIONS)
+blocks:
+  "1:0":
+    permission: "mb.stone"
+
+# Blocks
