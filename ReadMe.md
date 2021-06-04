@@ -32,3 +32,7 @@ Copyright (C) 2021  Taco!#1305
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
+
+# Video Example
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wXWqPyOijIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
