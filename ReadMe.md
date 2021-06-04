@@ -4,7 +4,7 @@
  - Fully Configurable
  - Uses Inventory Menu
 
-<h1>Configuration</h1>
+# Configuration
 ```
  - The how many times it updates in ticks
 update-time: 4
@@ -18,7 +18,7 @@ blocks:
 permission: "mb.stone"
 ```
 
-<h1>LICENCE</h1>
+# License
 ```
 Copyright (C) 2021  Taco!#1305
     This program is free software: you can redistribute it and/or modify
