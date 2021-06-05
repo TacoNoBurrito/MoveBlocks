@@ -31,12 +31,12 @@ class MoveTick extends Task {
     public function onRun(int $currentTick) : void {
         foreach(Loader::getInstance()->getServer()->getOnlinePlayers() as $player) {
             if (!isset(Loader::getInstance()->players[$player->getName()])) return;
+            $data = Loader::getInstance()->players[$player->getName()];
+            if ($data === "") return;
             $block = $player->getLevel()->getBlock($player->floor()->subtract(0, 1));
             if ($block->getId() === 0) return;
             $config = Loader::getInstance()->data;
             if (in_array($player->getLevel()->getName(), $config["banned-worlds"])) return;
-            $data = Loader::getInstance()->players[$player->getName()];
-            if ($data === "") return;
             $exploded = explode(":", $data);
             if ((int)$exploded[0] == $block->getId() and (int)$exploded[1] == $block->getDamage()) return;
             $player->getLevel()->setBlock($block, Block::get((int)$exploded[0], (int)$exploded[1]));
