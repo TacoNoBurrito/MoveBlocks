@@ -57,7 +57,7 @@ class MBCommand extends PluginCommand {
             $menu->setName("MoveBlocks Cosmetics");
             foreach (Loader::getInstance()->data["blocks"] as $info1 => $info2) {
                 $exploded = explode(":", $info1);
-                if ($sender->hasPermission($info2["permission"])) $inventory->addItem(Item::get((int)$exploded[0], (int)$exploded[1])->setLore([TF::RESET.TF::GREEN."Tap me to make this your", "MoveBlocks cosmetic!"]));
+                if ($sender->hasPermission($info2["permission"])) $inventory->addItem(Item::get((int)$exploded[0], (int)$exploded[1])->setLore([TF::RESET.TF::GREEN."Tap me to make this your", TF::RESET.TF::GREEN."MoveBlocks cosmetic!"]));
             }
             $inventory->setItem(53, Item::get(ItemIds::RED_FLOWER)->setCustomName(TF::RESET.TF::RED."Close Menu"));
             $inventory->setItem(52, Item::get(ItemIds::RED_FLOWER)->setCustomName(TF::RESET.TF::RED."Turn Off Block Cosmetic"));
