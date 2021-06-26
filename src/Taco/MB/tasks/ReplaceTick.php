@@ -41,8 +41,7 @@ class ReplaceTick extends Task {
      * @param int $currentTick
      */
     public function onRun(int $currentTick) : void {
-        $level = $this->previous->getLevel();
-        $level->setBlock($this->previous, $this->previous);
+        $this->previous->getLevel()->setBlock($this->previous, $this->previous);
     }
 
 }
